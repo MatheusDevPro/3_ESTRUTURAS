@@ -1,197 +1,198 @@
 // 1 - Variáveis
-let nome = "Matheus";
+// let nome = "Matheus";
 
-console.log(nome);
+// console.log(nome);
 
-nome = "Matheus Dantas";
+// nome = "Matheus Dantas";
 
-console.log(nome);
+// console.log(nome);
 
-const idade = 31;
+// const idade = 31;
 
-console.log(idade);
+// console.log(idade);
 
-// idade = 32;
+// // idade = 32;
 
-console.log(typeof nome);
+// console.log(typeof nome);
 
-console.log(typeof idade);
+// console.log(typeof idade);
 
 // 2 - mais sobre variáveis
 
 // let 2teste = "inválido"
 // let @teste = "inválido"
 
-let a = 10,
-  b = 20,
-  c = 30;
+// let a = 10,
+//   b = 20,
+//   c = 30;
 
-console.log(a, b, c);
+// console.log(a, b, c);
 
-const nomecompleto = "Matheus Dantas Rocha";
+// const nomecompleto = "Matheus Dantas Rocha";
 
-const nomeCompleto = "Ane karoline kaetano";
+// const nomeCompleto = "Ane karoline kaetano";
 
-console.log(nomecompleto, nomeCompleto);
+// console.log(nomecompleto, nomeCompleto);
 
-let _teste = "válido";
+// let _teste = "válido";
 
-let $teste = "válido";
+// let $teste = "válido";
 
-console.log(_teste, $teste);
+// console.log(_teste, $teste);
 
 // 3 - prompt
 
-// const age = prompt("Digite sua idade: ");
+// const idade = prompt("Digite sua idade: ");
 
-// console.log(`Você tem ${age} anos!`);
+// console.log(`Você tem ${idade} anos!`);
 
 // 4 - alert
 
-// alert("Testando");
+// alert("Numero de requisição Invalido!");
 
 // const z = 10;
 
 // alert(`O número é ${z}`);
 
-// 5 - Math
+//5 - Math
 
-console.log(Math.max(5, 2, 1, 10));
+// console.log(Math.max(5, 2, 1, 10));
 
-console.log(Math.floor(5.14));
+// console.log(Math.floor(5.14));
 
-console.log(Math.ceil(5.14));
+// console.log(Math.ceil(5.14));
 
-// 6 - console
+// // 6 - console
 
-console.log("teste");
+// console.log("teste");
 
-console.error("erro!");
+// console.error("erro!");
 
-console.warn("aviso!");
+// console.warn("aviso!");
 
 // 7 - if
-const m = 10;
+// const m = 10;
 
-if (m > 5) {
-  console.log("M é maior que 5!");
-}
+// if (m > 5) {
+//   console.log("M é maior que 5!");
+// }
 
-const user = "João";
+// const user = "João";
 
-if (user === "João") {
-  console.log("Olá João!");
-}
+// if (user === "João") {
+//   console.log("Olá João!");
+// }
 
-if (user === "Maria") {
-  console.log("Olá Maria!");
-}
+// if (user === "Maria") {
+//   console.log("Olá Maria!");
+// }
 
-// 8 - else
+// // 8 - else
 
-const loggedIn = false;
+// const idade = prompt("Digite sua idade: ");
 
-if (loggedIn) {
-  console.log("Usuário autenticado");
-} else {
-  console.log("Usuário não autenticado!");
-}
+// if (idade >= 18) {
+//   console.log("Acesso permitido ao conteudo.");
+// } else {
+//   console.log("Acesso nao permitido!");
+// }
 
-const q = 10;
-const w = 15;
+// const q = 10;
+// const w = 15;
 
-if (q > 5 && w > 20) {
-  console.log("Números mais altos!");
-} else {
-  console.log("Os números não são alto suficientes!");
-}
+// if (q > 5 && w > 20) {
+//   console.log("Números mais altos!");
+// } else {
+//   console.log("Os números não são alto suficientes!");
+// }
 
-// 9 - else if
-if (1 > 2) {
-  console.log("Teste");
-} else if (2 > 3) {
-  console.log("Teste 2");
-} else if (5 > 1) {
-  console.log("Agora sim!");
-}
+// // 9 - else if
+// if (1 > 2) {
+//   console.log("Teste");
+// } else if (2 > 3) {
+//   console.log("Teste 2");
+// } else if (5 > 1) {
+//   console.log("Agora sim!");
+// }
 
-const userName = "Matheus";
-const userAge = 31;
+// const userName = "Matheus";
+// const userAge = 31;
 
-if (userName === "José") {
-  console.log("Bem vindo José!");
-} else if (userName === "Matheus" && userAge === 31) {
-  console.log("Olá Matheus, você tem 22 anos!");
-} else {
-  console.log("Nenhuma condição aceita!");
-}
+// if (userName === "José") {
+//   console.log("Bem vindo José!");
+// } else if (userName === "Matheus" && userAge === 31) {
+//   console.log("Olá Matheus, você tem 22 anos!");
+// } else {
+//   console.log("Nenhuma condição aceita!");
+// }
 
 // 10 while
-let p = 0;
+// let p = 0;
 
-while (p < 5) {
-  console.log(`Repetindo ${p}`);
-  p++;
-}
+// while (p < 5) {
+//   console.log(`Repetindo ${p}`);
+//   p++;
+// }
 
-// loop infinito
+//loop infinito
 // let x = 10;
 // while (x > 5) {
 //   console.log(`Imprimindo ${x}`);
 // }
 
 // 11 - do while
-let o = 10;
+// let o = 10;
 
-do {
-  console.log(`Valor de o: ${o}`);
-  o = o - 1;
-} while (o > 1);
+// do {
+//   console.log(`Valor de o: ${o}`);
+//   o = o - 1;
+// } while (o > 1);
 
-// 12 - for
-for (let t = 0; t < 10; t++) {
-  console.log("Repetindo algo...");
-}
+// // // 12 - for
+// for (let t = 0; t < 10; t++) {
+//   console.log("Repetindo algo...");
+// }
 
-let r = 10;
+// let r = 10;
 
-for (r; r > 0; r = r - 1) {
-  console.log(`O r está diminuindo: ${r}`);
-}
+// for (r; r > 0; r = r - 1) {
+//   console.log(`O r está diminuindo: ${r}`);
+// }
 
-console.log(r);
+// console.log(r);
 
-// 13 - identaçao
-for (let u = 0; u < 10; u++) {
-  if (u * 2 > 10) {
-    console.log(`Maior que 10! ${u}`);
-  } else {
-    if (u / 2 === 0) {
-      console.log("deu 0!");
-    }
-  }
-}
+// // // 13 - identaçao
+// for (let u = 0; u < 10; u++) {
+//   if (u * 2 > 10) {
+//     console.log(`Maior que 10! ${u}`);
+//   } else {
+//     if (u / 2 === 0) {
+//       console.log("deu 0!");
+//     }
+//   }
+// }
 
-// 14 - break
-for (let g = 20; g > 10; g--) {
-  console.log(`O g é: ${g}`);
+// // 14 - break
+// for (let g = 20; g > 10; g--) {
+//   console.log(`O g é: ${g}`);
 
-  if (g === 12) {
-    console.log("Chegamos no 12!");
-    break;
-  }
-}
+//   if (g === 12) {
+//     console.log("Chegamos no 12!");
+//     break;
+//   }
+// }
 
 // 15 - continue
-for (s = 0; s < 10; s++) {
-  if (s % 2 === 0) {
-    console.log("Número par!");
-    continue;
-  }
-  console.log(s);
-}
+// for (s = 0; s < 10; s++) {
+//   if (s % 2 === 0) {
+//     console.log("Número par!");
+//     continue;
+//   }
+//   console.log(s);
+// }
 
 // 15 - switch
+//const job = prompt("Digite sua especialidade: ");
 const job = "Advogado";
 
 switch (job) {
